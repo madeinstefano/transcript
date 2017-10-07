@@ -19,7 +19,5 @@ const newContent = trans.run( content.base, content.target );
 if ( format === 'json' ) {
   fs.writeFileSync( output, JSON.stringify( newContent, null, 2 ) + '\n' );
 } else if ( format === 'yaml' ) {
-  console.log( newContent );
-  console.log( yaml.safeDump( newContent, { indent: 2 } ) );
-  fs.writeFileSync( output, yaml.safeDump( newContent, { indent: 2, noCompatMode: true } ) );
+  fs.writeFileSync( output, yaml.safeDump( newContent, { indent: 2, lineWidth: -1, noCompatMode: true } ) );
 }
