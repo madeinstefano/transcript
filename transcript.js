@@ -17,7 +17,7 @@ if ( format === 'json' ) {
 const newContent = trans.run( content.base, content.target );
 
 if ( format === 'json' ) {
-  fs.writeFileSync( output, JSON.stringify( newContent, null, 2 ) );
+  fs.writeFileSync( output, JSON.stringify( newContent, null, 2 ) + '\n' );
 } else if ( format === 'yaml' ) {
   console.log( newContent );
   console.log( yaml.safeDump( newContent, { indent: 2 } ) );

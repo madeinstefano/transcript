@@ -1,6 +1,6 @@
 {
   "name": "transcript-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "transcript.js",
   "dependencies": {
     "flat": "4.0.0",
