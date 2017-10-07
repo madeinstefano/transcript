@@ -1,5 +1,5 @@
 {
-  "name": "transcript",
+  "name": "transcript-node",
   "version": "0.0.1",
   "main": "transcript.js",
   "dependencies": {
