@@ -1,0 +1,10 @@
+{
+  "car": {
+    "engine": {
+      "power_figures": {
+        "power": 330,
+        "torque": 231
+      }
+    }
+  }
+}

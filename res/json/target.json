@@ -1,0 +1,14 @@
+{
+  "car": {
+    "goofy": true,
+    "engine": {
+      "displacement": 2500,
+      "power": 321,
+      "torque": 431
+    },
+    "optionals": ["power sunroof", "powerseats"],
+    "model": "335i",
+    "maker": "BMW",
+    "year": 2004
+  }
+}

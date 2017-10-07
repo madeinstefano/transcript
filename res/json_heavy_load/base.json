@@ -1,0 +1,726 @@
+{
+  "widgets": {
+    "alert_appendices": {
+      "influencer": {
+        "joined": "Medlem siden {{ date }}",
+        "likes_to_talk": "Interesserer sig for"
+      },
+      "popular_topic": {
+        "post_polular": "Opslagets popularitet",
+        "likes_on": "Kan lide dette indlæg",
+        "average_likes": "Indlæg i denne søgning modtager et gennemsnit på {{likes}} synes godt om",
+        "retweets": "{{count}} Retweets på dette opslag",
+        "reach": "Samlet potentiel rækkevidde",
+        "average_rt": "Indlæg i denne søgning modtager et gennemsnit på {{rts}} Retweets"
+      },
+      "sem_rush_adwords_cost": {
+        "spend_stats": "Statistik over forbrug",
+        "spend_over": "Forbrug de seneste 30 dage",
+        "inc_average": "Stigning fra gennemsnit",
+        "dec_average": "Fald fra gennemsnit",
+        "percentage": "Samlet procentændring"
+      },
+      "sem_rush_adwords_cost_by_database": {
+        "spend_stats": "Statistik over forbrug",
+        "spend_over": "Forbrug de seneste 30 dage",
+        "inc_average": "Stigning fra gennemsnit",
+        "dec_average": "Fald fra gennemsnit",
+        "percentage": "Samlet procentændring"
+      },
+      "sem_rush_adwords_traffic": {
+        "spend_stats": "Statistik over forbrug",
+        "spend_over": "Forbrug de seneste 30 dage",
+        "inc_average": "Stigning fra gennemsnit",
+        "dec_average": "Fald fra gennemsnit",
+        "percentage": "Samlet procentændring"
+      },
+      "sem_rush_keyword_cost": {
+        "spend_stats": "Statistik over forbrug",
+        "spend_over": "Forbrug de seneste 30 dage",
+        "inc_average": "Stigning fra gennemsnit",
+        "dec_average": "Fald fra gennemsnit",
+        "percentage": "Samlet procentændring"
+      },
+      "sem_rush_display_ads": {
+        "first_seen": "SET FØRSTE GANG",
+        "times_seen": "Antal gange vist",
+        "keywords": "Nøgleord i annonce"
+      },
+      "sem_rush_keywords": {
+        "continue": "Top søgeord (fortsat)"
+      },
+      "sem_rush_landing_pages": {
+        "landings": "Top Landing Pages"
+      },
+      "trend": {
+        "mentions": "{{number}} nævnt de seneste {{since}} minutter",
+        "shares": "Delt",
+        "reach": "Nuværende rækkevidde"
+      }
+    },
+    "about_widget": {
+      "title": "About {{actor_name}}",
+      "followers": "FOLLOWERS",
+      "following": "FOLLOWING",
+      "joined": "Medlem siden {{ date }}"
+    },
+    "activity": {
+      "likes": "synes godt om",
+      "comments": "kommentarer",
+      "shares": "Delt"
+    },
+    "alert": {
+      "ad_copy": "Top Ad Copy statistik",
+      "landings": "Top Landing Pages",
+      "dropped_competitors": "Dropped Competitors",
+      "more_role": "Mere om denne rolle",
+      "more_keywords": "Flere søgeord",
+      "display_ad": "Vis annonceeksponering",
+      "pin": "Fastgør",
+      "unpin": "Frigør",
+      "add_to_search": "Tilføj til søgning",
+      "learn_more": "Lær mere"
+    },
+    "analytics_graph_widget": {
+      "reach": "Rækkevidde",
+      "mentions": "Antal gange nævnt",
+      "ad_spend": "Annonceudgifter",
+      "paid_traffic": "Betalt trafik",
+      "traffic_cost": "Trafikudgifter",
+      "number_related": "# relaterede opslag over tid",
+      "reach_over_time": "Rækkevidde over tid",
+      "change_in_paid_traffic": "ændring i betalt trafik",
+      "change_in_ad_spend": "Ændring i Ad Spend",
+      "change_in_traffic_cost": "ændring i betalt trafik",
+      "change_in_viewership": "Ændring i visninger"
+    },
+    "average_likes_widget": {
+      "average_likes": "Indlæg for denne søgning modtager<b>{{ number }}</b> i gennemsnit"
+    },
+    "average_replies_widget": {
+      "average_comments": "Indlæg for denne søgning modtager<b>{{ number }}</b>Kommentarer i gennemsnit",
+      "average_replies": "Indlæg for denne søgning modtager <b>{{ number }}</b>svar i gennemsnit"
+    },
+    "average_shares_widget": {
+      "average_rts": "Indlæg for denne søgning modtager <b>{{ number }}</b> ReTweets i gennemsnit.",
+      "average_replies": "Indlæg for denne søgning modtager <b>{{ number }}</b>svar i gennemsnit"
+    },
+    "conversations_widget": {
+      "related_conversations": "Beslægtede samtaler",
+      "conversations": "samtaler",
+      "conversation": "samtale",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "by_actor": "ved <b>{{ actor_name }}</b>i {{ days}}",
+      "posted_by": "<b>{{ actor_name }}</b>opslået.",
+      "commented_on": "<b>{{ commentor }}</b>kommenterede på indlægget fra {{ commented }}",
+      "fesee_more": "Se mere"
+    },
+    "generic_alert_doc": {
+      "database": "DATABASE",
+      "common_keywords": "Fælles nøgleord",
+      "search_volume": "VOLUMEN",
+      "cpc": "CPC",
+      "times_seen": "Antal gange vist",
+      "active_ads": "Aktive annoncer",
+      "display_ad": "Vis annonceeksponering",
+      "change_in_viewership": "Ændring i visninger",
+      "keyword_ad_spend": "Ad Spend",
+      "change_in_ad_spend": "Ændring i Ad Spend",
+      "overall_spend": "Overall Spend",
+      "paid_traffic": "{{database}} Betalt trafik",
+      "change_in_paid_traffic": "ændring i betalt trafik"
+    },
+    "items_widget": {
+      "ad_copy": "Top Ad Copy statistik",
+      "database": "DATABASE",
+      "keywords": "Nøgleord i annonce",
+      "cpc": "CPC"
+    },
+    "mentions_widget": {
+      "past_mentions": "Tidligere omtale",
+      "mentions": "Tidligere omtale",
+      "mention": "nævn",
+      "mention_by": "ved <b>{{actor_name}}</b>i {{days}}",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "fb_mention_post": "{{actor}} postet.",
+      "fb_mention_comment": "{{actor}} kommenterede på opslaget fra {{other}} ",
+      "see_more": "SE MERE"
+    },
+    "more_about_widget": {
+      "more_about": "Mere om {{actor_name}}",
+      "other_profiles": "Andre sociale profiler",
+      "current_job_title": "Aktuel position",
+      "current_job": "{{ title }} i {{ organization }}",
+      "current_location": "Aktuel lokation",
+      "demographics_title": "Demografi",
+      "demographics": "{{ gender }} og {{ agre_range }}"
+    },
+    "most_popular_widget": {
+      "see_more": "SE MERE",
+      "fb_mention_post": "<b>{{actor}}</b>opslået.",
+      "fb_mention_comment": "<b>{{actor}}</b> kommenterede på opslaget fra <b>{{other}}</b>"
+    },
+    "post_reach_widget": {
+      "total_reach": "Samlet potentiel rækkevidde for opslag",
+      "reach_over_time": "Rækkevidde for opslag over tid"
+    },
+    "preview": {
+      "preview": " Eksempel",
+      "number_of_matches": "Indlæg pr. måned, der matcher denne søgning.",
+      "nothing_found": "Intet fundet for denne søgning",
+      "sem_keywords": "SEM Keywords",
+      "sem_traffic": "SEM Trafik",
+      "cost": "Anslået pris"
+    },
+    "profile": {
+      "followers": "Følgere",
+      "following": "Følger",
+      "posts": "Indlæg",
+      "influential_topics": "Indflydelsesrige emner"
+    },
+    "rule_input_type_2": {
+      "and": "OG",
+      "not": "IKKE",
+      "tweet_handle": "Tweets fra @handle",
+      "mention_handle": "Omtalt af @handle",
+      "contains_hashtag": "Indeholder hashtag",
+      "track_url": "Spor url",
+      "language": "Specifikt sprog",
+      "posts_handle": "Posts af @handle",
+      "posts_in_page": "Posts på siden",
+      "posts_by_user": "Posts af bruger",
+      "verb": "Udsagn <small>(Indlæg, kommentar eller svar)</small>",
+      "in_title": "Contained in Title",
+      "exclude_tweet_handle": "Ekskluder tweets fra @handle",
+      "exclude_mention_handle": "Ekskluder omtaler fra @handle",
+      "exclude_posts_handle": "Ekskluder indlæg fra @konto",
+      "exclude_hashtag": "Ekskluder hashtag",
+      "exclude_posts_by_user": "Ekskluder posts fra bruger",
+      "exclude_verb": "Ekskluder udsagn <small>(indlæg, kommentar eller svar)</small>"
+    },
+    "sentiment_bar_widget": {
+      "sentiment": "Samlet sentiment"
+    },
+    "std_totals_widget": {
+      "change_average": "Skift fra gennemsnit",
+      "total_change": "Samlet procentændring"
+    },
+    "switch_business": {
+      "placeholder": "Søg brands ...",
+      "create_new": "Opret nyt brand"
+    },
+    "top_hashtags_widget": {
+      "top_related": "Top relaterede Hashtags"
+    },
+    "top_influencer_widget": {
+      "top_influencer": "Top Influencers",
+      "followers": "FOLLOWERS",
+      "following": "FOLLOWING",
+      "joined": "Medlem siden {{ date }}"
+    },
+    "top_links_widget": {
+      "top_links": "Top Links"
+    },
+    "wanted_doc": {
+      "latest_job_post": "Her er det seneste jobindlæg fra {{employer}}."
+    }
+  },
+  "pages": {
+    "accounts": {
+      "index": {
+        "title": "Administrer brugere",
+        "name": "Navn",
+        "email": "Email",
+        "confirmed": "Bekræftet",
+        "yes": "Ja",
+        "no": "Nej",
+        "edit": "Rediger",
+        "remove": "Fjern"
+      }
+    },
+    "alert_rating": {
+      "index": {
+        "title": "Tak for din feedback!",
+        "tell_us_more": "Fortæl mere (valgfrit)",
+        "send_feedback": "Send feedback",
+        "make_alerts_smarter": "Lad os fortsætte med at gøre dine alerts klogere.",
+        "not_useful": "Hvad var ikke nyttigt i denne alert?",
+        "not_relevant": "Dette indhold er ikke relevant for mig.",
+        "not_actionable": "Oplysningerne i denne alert er ikke nyttig eller fører til handlinger fra min side.",
+        "dont_want": "Jeg vil ikke se denne bruger igen.",
+        "offensive": "Indholdet er stødende eller for salgsfremmende.",
+        "not_accurate": "Oplysningerne i advarslen ser ikke ud til at være korrekte / up-to-date.",
+        "high_volume": "Jeg får for mange alerts.",
+        "technical_issues": "Tekniske Problemer (Duplikationer, alerts fungerer ikke, etc.)",
+        "others": "Andet (spørgsmål, ideer til nye funktioner osv.)",
+        "tell_more": "Fortæl mere",
+        "optional": "(valgfri)",
+        "more_detail": "Vi vil gerne høre flere detaljer!"
+      }
+    },
+    "alerts": {
+      "context": {
+        "about": "Om denne alert"
+      },
+      "show": {
+        "learn_more": "Lær mere"
+      }
+    },
+    "authentication": {
+      "activate": {
+        "activate": "Aktiver",
+        "activate_account": "Aktiver din konto",
+        "password_required": "Adgangskode er påkrævet",
+        "password_min_characters": "Adgangskoden skal være mindst 8 tegn",
+        "confirm_password": "Bekræft kodeord",
+        "choose_password": "Vælg et kodeord",
+        "confirmation": "Password Confirmation is required",
+        "match_password": "Skal svare til den angivne adgangskode",
+        "login": "Log ind",
+        "resend": "Gensend bekræftelse"
+      },
+      "change_password": {
+        "change_password": "Skift kodeord",
+        "change": "Change",
+        "password_required": "Adgangskode er påkrævet",
+        "password_min_characters": "Adgangskoden skal være mindst 8 tegn",
+        "confirm_password": "Bekræft kodeord",
+        "choose_password": "Vælg et kodeord",
+        "confirmation": "Password Confirmation is required",
+        "match_password": "Skal svare til den angivne adgangskode",
+        "login": "Log ind",
+        "resend": "Gensend bekræftelse"
+      },
+      "forgot_password": {
+        "change_instructions": "Send instruktioner til at ændre kodeord",
+        "email": "Email adresse",
+        "email_required": "Email er påkrævet",
+        "send": "Send",
+        "login": "Log ind",
+        "resend": "Gensend bekræftelse"
+      },
+      "login": {
+        "password": "Adgangskode",
+        "email": "Email",
+        "remember_me": "Husk mig",
+        "sign_in": "Log ind",
+        "forgot_password": "Glemt kodeord",
+        "resend": "Gensend bekræftelse"
+      },
+      "resend_confirmation": {
+        "resend_confirmation": "Send bekræftelsesinstruktioner igen",
+        "email": "Email adresse",
+        "email_required": "Email er påkrævet",
+        "login": "Log ind",
+        "forgot_password": "Glemt kodeord",
+        "resend_instructions": "Gensend Instruktioner"
+      }
+    },
+    "business": {
+      "accounts": {
+        "title": "Sociale Konti",
+        "title_desc": "Opret forbindelse til Twitter, Instagram og Facebook for at aktivere dine indsigter for disse kilder.",
+        "datasources_tab": "Datakilder",
+        "source": "Kilde",
+        "account_profile": "Konto / Profil",
+        "facebook": "Facebook",
+        "expired_fb": "Udløber om {{expires_in_days}} dage",
+        "refresh": "Opdater",
+        "remove": "Fjern",
+        "expired": "Udløbet",
+        "valid": "Gyldig",
+        "integration": "Integration",
+        "to_zapier": "Send ny Alert test til Zapier."
+      },
+      "branding": {
+        "digest_custom": "Tilpasning af daglig rapport",
+        "digest_bg": "Baggrundsfarve på overskrift",
+        "digest_placeholder": "Klik for at vælge en farve",
+        "digest_error": "Ugyldig farveformat",
+        "digest_extra": "Denne farve anvendes også på sektionsoverskrifter",
+        "digest_font": "Font farve på overskrift",
+        "digest_logo": "Rapport logo",
+        "digest_logo_extra": "Transparent .png Kun filer",
+        "save": "Gem",
+        "restore": "Gendan standardindstillinger"
+      },
+      "edit": {
+        "brand_name": "Brand",
+        "brand_madatory": "Brand er obligatorisk",
+        "timezone": "Din tidszone",
+        "timezone_madatory": "Tidszone er påkrævet",
+        "select": "Vælg...",
+        "save": "Gem"
+      },
+      "exclusions": {
+        "title": "Udelukkelser",
+        "title_desc": "Disse undtagelser gælder for alle dine søgninger",
+        "excluded_words": "Ekskluderede ord, sætninger og hashtags *",
+        "excluded_twitter": "Ekskluderede Handles til Twitter *",
+        "excluded_instagram": "Ekskluderede Kontoer til Instagram *",
+        "excluded_profiles": "Ekskluder brugere med disse ord i deres sociale mediebios *",
+        "across_all": "* Disse vil blive ekskluderet i alle dine søgninger",
+        "save": "Gem"
+      },
+      "form": {
+        "title": "Opret nyt brand",
+        "brand_name": "Brand",
+        "brand_madatory": "Brand er obligatorisk",
+        "timezone": "Din tidszone",
+        "timezone_madatory": "Tidszone er påkrævet",
+        "select": "Vælg...",
+        "save": "Gem",
+        "account_status": "Konto status",
+        "account_status_hint": "Konto status (dvs. Test, Prospekt, Prøve eller Kunde)",
+        "goals": "Firma & Mål / Særlige Forespørgsler",
+        "go_back": "Gå tilbage"
+      },
+      "settings": {
+        "title": "Brandindstillinger"
+      },
+      "switch": {
+        "name": "Navn",
+        "current": "Indstil nuværende",
+        "disable": "Deaktiver",
+        "detach": "Frigør"
+      }
+    },
+    "closer_eye": {
+      "form": {
+        "title": "Tilføj til søgning",
+        "like_to_add": "Hvad vil du gerne føje til din søgning?",
+        "other": "Andet",
+        "description": "Beskrivelse",
+        "description_error": "Tell us what do you want to track",
+        "get_back_shortly": "Beskriv hvad du gerne vil spore, så vil din Meltwater konsulent kontakte dig hurtigst muligt!",
+        "search_added": "Denne søgning bliver tilføjet til {{alert.rule.topic.name}} emnet.",
+        "track_this": "Spor dette",
+        "cancel": "Annuller",
+        "thanks": "Tak for din tilbagemelding! Vi holder øje med disse emner for dig. Vi sender dig en notifikation, når vi finder noget interessant.",
+        "return": "Tilbage til Feed"
+      }
+    },
+    "handles": {
+      "form": {
+        "title": "Ny Konto",
+        "handle_name": "Dit kontonavn",
+        "handle_name_placeholder": "Kontonavn",
+        "handle_name_error": "Du skal fortælle os, hvilken konto du vil tilføje.",
+        "handle_name_repeated": "Eksisterende konto. Din konto skal være unik.",
+        "handle_name_limit": "Du kan ikke tilføje en anden konto, fordi du har nået din nuværende begrænsning af søgninger.",
+        "handle_source": "Din konto kilde",
+        "add_handle": "Tilføj konto",
+        "go_back": "Gå tilbage"
+      },
+      "index": {
+        "title": "Kontoer",
+        "title_desc": "Tilføj alle de konti du håndterer, så vi kan give dig komplette analyser og rapportering.",
+        "handle": "Konto",
+        "source": "Kilde",
+        "remove": "Fjern",
+        "no_handles": "Du har endnu ikke nogen konto"
+      }
+    },
+    "historical_data": {
+      "form": {
+        "title": "Import af datahistorik",
+        "steps": "Trin til at importere og behandle historiske tweets",
+        "explanation": "Tillader dig at importere historiske aktiviteter fra denne virksomhed. Du kan gøre denne søgning hurtigere ved at vælge bestemte regler, der skal importeres.",
+        "select_period": "1. Vælg periode",
+        "start_placeholder": "Start",
+        "start_mandadory": "Start date is mandatory and must be up to 7 days ago",
+        "end_placeholder": "Slut",
+        "end_mandadory": "End date is mandatory and must after 'Start'",
+        "select_searches": "2. Vælg {{business_name}} 's søgninger ( {{number_of}} valgte)",
+        "select_all": "Vælg alle",
+        "deselect_all": "Fravælg alle",
+        "check_volume": "3. Kontroller datavolumen",
+        "total_volume": "Samlet volumen for udvalgte regler i perioden er {{importVolume}} aktiviteter.",
+        "calculate": "Beregn",
+        "next_import": "4. Import",
+        "import": "Importer",
+        "cant_import": "Kan ikke importere: regel volumen er højere end {{10000}} aktiviteter."
+      },
+      "index": {
+        "importations": "Importations",
+        "created": "Oprettet",
+        "importing_time": "Importerer tid",
+        "imported_activities": "Importerede aktiviteter",
+        "processing_time": "Behandlingstid",
+        "finished": "Færdig",
+        "reprocess": "Gentag",
+        "interrupt": "Afbryd"
+      }
+    },
+    "report": {
+      "index": {
+        "title": "Opret mit resumé",
+        "period": "Periode",
+        "start_placeholder": "Start",
+        "start_mandadory": "Startdato er obligatorisk og skal være op til 3 måneder siden",
+        "end_placeholder": "Slut",
+        "end_mandadory": "Slutdato er obligatorisk og skal være mindre end 30 dage fra 'Start'",
+        "show_report": "Vis mit resumé",
+        "print": "Udskriv / Gem",
+        "no_data": "Der er ingen data for dette interval",
+        "performance": "Din performance ",
+        "growth": "Din vækst i Følgere og Potentielle Rækkevidde",
+        "new_followers": "Nye følgere",
+        "reach": "Potentiel rækkevidde",
+        "choose_handles": "Vælg ",
+        "no_chart": "Der er ingen data til dette diagram",
+        "best_tweets": "Dine bedste tweets",
+        "summary": "Opsummering",
+        "total_tweets": "Samlet antal tweets",
+        "couldnt_find": "\"Det ser ud til, at vi ikke kunne finde nogen data om disse søgninger.\"",
+        "try_another": "\"Prøv at vælge en anden søgning?\"",
+        "choose_searched": "Vælg søgninger ({{filters.rules.length}} søgninger)",
+        "select_all": "Vælg alle",
+        "deselect_all": "Fravælg alle",
+        "apply_filter": "Anvend filter",
+        "popular_conversation": "Mest populære samtaler",
+        "top_influencers": "Top Influencers",
+        "most_popular": "Mest populære"
+      }
+    },
+    "review": {
+      "index": {
+        "title": "Insights Review",
+        "review_alert": "Review Alert #{{alert.id}} from {{alert.business.name}}",
+        "generated": "Generated by Search #{{alert.rule.id}}: {{alert.rule.raw_value}}",
+        "company_goals": "Firma & Mål / Særlige Forespørgsler",
+        "approve": "Approve",
+        "skip": "Skip",
+        "reject": "Reject",
+        "sem": "SEM",
+        "choose_why": "Choose why you are rejecting this alert:",
+        "spam_promotional": "Spam/Promotional",
+        "technical_issues": "Tekniske Problemer (Duplikationer, alerts fungerer ikke, etc.)",
+        "not_relevant": "Not relevant",
+        "other": "Andet",
+        "rejection_notes": "Rejection notes",
+        "rejection_placeholder": "Anything else why this alert was rejected?",
+        "reject_this": "Reject this",
+        "no_alerts_review": "Looks like you don't have any alerts to review for now!"
+      }
+    },
+    "rules": {
+      "form": {
+        "title_new": "Ny {{source}} Søgning",
+        "title_edit": "Rediger {{source}} Søgning",
+        "source": "Kilde",
+        "select": "Vælg...",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "sem": "SEM",
+        "click_to_edit": "Klik for at redigere en klausul.",
+        "Location": "beliggenhed",
+        "receive_alerts": "Jeg vil gerne modtage notifikationer om:",
+        "influencers": "Influencers",
+        "trends": "Tendenser",
+        "every_match": "Hver match til denne søgning",
+        "must_choose": "Du skal vælge typen af notifikationer, som denne søgning genererer.",
+        "domain": "Hvilket domæne vil du gerne spore?",
+        "invalid_domain": "Ugyldigt domæne",
+        "select_databases": "Vælg domæne (op til 5)",
+        "select_all": "Vælg alle",
+        "deselect_all": "Fravælg alle",
+        "new_top": "Nyt emne",
+        "competitors": "Konkurrenter",
+        "keywords": "Nøgleord",
+        "ad_copy": "Ad copy",
+        "landing_pages": "Landing pages",
+        "inc_dec": "Forøg eller reducer i ...",
+        "traffic": "Trafik",
+        "ad_spend": "Annonceudgifter",
+        "display_ads": "Vis annonceeksponering",
+        "must_choose_place": "For instagram searches, you must choose a place or create a rule expression.",
+        "save": "Gem",
+        "go_back": "Gå tilbage",
+        "save_create": " Gem og opret en anden"
+      },
+      "source_selection": {
+        "title": "Kildevalg",
+        "choose_source": "Vælg kilden til denne nye søgning.",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "sem": "SEM",
+        "job_posts": "Talent",
+        "next": "Næste",
+        "go_back": "Gå tilbage"
+      },
+      "wanted_rule_form": {
+        "company_track": "Hvilken virksomhed vil du gerne spore?",
+        "receive_alerts": "Jeg vil gerne modtage notifikationer om:",
+        "select_all": "Vælg alle",
+        "deselect_all": "Fravælg alle",
+        "new_positions": "Nye stillinger",
+        "key_changes": "Nøgleændringer",
+        "every_match": "Hver match til denne søgning",
+        "save": "Gem",
+        "go_back": "Gå tilbage",
+        "save_create": "Gem og opret en anden"
+      }
+    },
+    "timeline": {
+      "index": {
+        "title": "Mine notifikationer",
+        "title_desc": "Sorterer i {{ rules_volume }} indlæg pr. måned, for at anbefale disse vigtige indsigter",
+        "filter": "Filter",
+        "pinned": "Fastgør",
+        "content_source": "Indholdskilde",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "sem": "SEM",
+        "job_post": "Talent",
+        "period": "Periode",
+        "from": "Fra",
+        "from_mandatory": "Startdato er obligatorisk og skal være op til 3 måneder siden",
+        "to": "Til",
+        "to_mandatory": "Slutdato er obligatorisk og skal være efter 'Start'",
+        "topics": "Emner",
+        "add_all": "Tilføj alle",
+        "reset_values": "Nulstil",
+        "no_filter_alerts": "Der er ingen notifikationer der matcher dit filter. Vil du søge efter noget andet?",
+        "no_alerts": "Ser ud som om du ikke har nogen notifikationer endnu!",
+        "try_change_config": "Du modtager din første notifikation i din indbakke inden for kort tid. Lad os i mellemtiden prøve at ændre din konfiguration.",
+        "change_config": "Skift mine indstillinger"
+      }
+    },
+    "topics": {
+      "index": {
+        "title": "Emner",
+        "title_desc": "{{rulesCount}} af {{max_rules}} søgninger oprettet",
+        "no_topics": "Der er endnu ingen emner.",
+        "searches": "{{topic_rules_length}} Søgninger",
+        "new_search": "Ny søgning",
+        "edit": "Rediger",
+        "remove": "Fjern",
+        "posts_month": "Posts / Måned"
+      },
+      "form": {
+        "title_new": "Nyt emne",
+        "title_edit": "Redigér emne",
+        "name": "Navn",
+        "name_error": "Navn er obligatorisk",
+        "users": "Brugere",
+        "user_topics": "Indtast de brugere, der skal modtage notifikationer fra dette emne.",
+        "all_users": "Alle brugere (nuværende / fremtidige) skal modtage notifikationer fra dette emne",
+        "save": "Gem",
+        "go_back": "Gå tilbage",
+        "save_create": "Gem & Opret søgning"
+      }
+    },
+    "users": {
+      "manage": {
+        "title": "Redigér bruger",
+        "permissions": "{{account_user_name}} tilladelser",
+        "alert_config": "Konfiguration af notifikationer",
+        "digest": "Modtag daglige rapporter",
+        "alerts": "Modtag notifikationer i realtid",
+        "user_can": "Denne bruger kan",
+        "config_brand": "Konfigurer Brand",
+        "access_summary": "Adgang til resumé",
+        "manage_users": "Administrer brugere",
+        "access_branding": "Adgang til tilpasning af branding",
+        "create_zapier": "Create Zapier Integration",
+        "no_edit": "Mangler tilladelse til at redigere.",
+        "save": "Gem",
+        "go_back": "Gå tilbage"
+      },
+      "invite": {
+        "title": "Invitér en ny bruger",
+        "name": "Fulde navn",
+        "name_placeholder": "Dit navn",
+        "name_error": "Navn er obligatorisk",
+        "email": "Email",
+        "email_placeholder": "Email",
+        "email_mandatory": "Email er obligatorisk",
+        "email_error": "Ups, forkert email format!",
+        "alert_config": "Konfiguration af notifikationer",
+        "digest": "Modtag daglige rapporter",
+        "alerts": "Modtag notifikationer i realtid",
+        "user_can": "Denne bruger kan",
+        "config_brand": "Konfigurer Brand",
+        "access_summary": "Adgang til resumé",
+        "manage_users": "Administrer brugere",
+        "access_branding": "Adgang til tilpasning af branding",
+        "invite": "Invitér",
+        "go_back": "Gå tilbage"
+      },
+      "form": {
+        "title": "Personlige indstillinger",
+        "name": "Navn",
+        "name_placeholder": "Dit navn",
+        "name_error": "Navn er påkrævet",
+        "email": "Email",
+        "preferred_language": "Foretrukne sprog",
+        "change_password": "Redigér mit kodeord",
+        "password_placeholder": "Nuværende kodeord",
+        "password_required": "Din nuværende adgangskode er påkrævet",
+        "new_password": "Nyt kodeord",
+        "new_password_required": "Adgangskode er påkrævet",
+        "new_password_error": "Adgangskoden skal være mindst 8 tegn",
+        "confirm_password": "Bekræft din nye adgangskode",
+        "confirm_password_error": "Skal svare til den angivne adgangskode",
+        "update_settings": "Opdater mine indstillinger",
+        "enter_password": "Indtast venligst din nuværende adgangskode for at gemme eventuelle ændringer.",
+        "digest": "Dagligt resumé",
+        "would_you_like_digest": "Vil du gerne modtage en daglig opsummering?",
+        "send_me_digest": "Ja, send mig en opsummering",
+        "only_subscribed": "Kun emner, der abonneres på?",
+        "digest_time": "Hvad tid på dagen?",
+        "only_subscribed_agree": "Ja, send mig kun indlæg fra emner, jeg abonnerer på",
+        "digest_schedule_required": "Planlagt tid til daglig rapportering er påkrævet",
+        "digest_schedule_invalid": "Ups, ugyldig tid. Benyt TT:MM Eks: 15:10.",
+        "real_time_alert_limit": "Real-time grænser for notifikationer",
+        "real_time_alert_limit_number": "Hvad er det maksimale antal e-mail-notifikationer, du gerne vil modtage hver dag?",
+        "real_time_alert_limit_required": "Daglig grænse for notifikationer er påkrævet",
+        "save": "Gem"
+      }
+    },
+    "welcome": {
+      "index": {
+        "title": "{{user_name}}, Vi er glade for at have dig om bord",
+        "thanks_message": "Tak for din tilmelding! En Meltwater konsulent vil snart kontakte dig <br/> for at besvare eventuelle spørgsmål, og hjælpe dig med at få mest muligt ud af din prøveperiode. <b>God fornøjelse!</b>",
+        "things_you_can_do": "Kom i gang med det samme!",
+        "edit": "Redigér indstillinger for notifikationer",
+        "conﬁrm_email": "Bekræft din email",
+        "invite": "Invitér kollegaer (det er gratis)",
+        "blog": "Tjek vores blog for tips"
+      }
+    },
+    "index": {
+      "topbar": {
+        "my_account": "Min konto",
+        "logout": "Log ud"
+      },
+      "sidebar": {
+        "alerts": "Notifikationer",
+        "topics": "Emner",
+        "searches": "Søgninger",
+        "handles": "Kontoer",
+        "exclusions": "Udelukkelser",
+        "executive_summary": "Resumé",
+        "settings": "Indstillinger",
+        "manage_users": "Administrer brugere",
+        "social_accounts": "Sociale Konti",
+        "brand_settings": "Brandindstillinger",
+        "personal_settings": "Personlige indstillinger",
+        "logout": "Log ud fra {{user_name}}"
+      },
+      "footer": {
+        "company_name": "Meltwater © 2016",
+        "copyright": "Ophavsret",
+        "privacy_policy": "Beskyttelse af personlige oplysninger"
+      }
+    }
+  }
+}

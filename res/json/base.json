@@ -1,0 +1,18 @@
+{
+  "car": {
+    "engine": {
+      "displacement": 3200,
+      "aspiration": "natural",
+      "power_figures": {
+        "power": 235,
+        "torque": 231
+      },
+      "layout": "i6"
+    },
+    "optionals": ["power sunroof"],
+    "model": "330i",
+    "maker": "BMW",
+    "year": 1991,
+    "price": 21931
+  }
+}

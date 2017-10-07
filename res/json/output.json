@@ -1,0 +1,21 @@
+{
+  "car": {
+    "engine": {
+      "displacement": 2500,
+      "aspiration": "natural",
+      "power_figures": {
+        "power": 235,
+        "torque": 231
+      },
+      "layout": "i6"
+    },
+    "optionals": [
+      "power sunroof",
+      "powerseats"
+    ],
+    "model": "335i",
+    "maker": "BMW",
+    "year": 2004,
+    "price": 21931
+  }
+}

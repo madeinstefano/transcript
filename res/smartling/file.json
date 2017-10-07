@@ -1,0 +1,14 @@
+{
+  "smartling" : {
+    "translate_paths" : {
+      "path" : "/strings/*",
+      "key" : "/strings/{*}"
+    },
+    "placeholder_format_custom" : ["\\[{2}(.+?\\]?)\\]{2}|\\{{2}(.+?\\}?)\\}{2}"]
+  },
+  "strings" : [
+  {
+    "car.engine.power_figures.power" : 330,
+    "car.engine.power_figures.torque" : 231
+  }]
+}
